@@ -1,9 +1,9 @@
-import React from "react";
-import { View, Text, StyleSheet, Image, TouchableOpacity, SafeAreaView} from 'react-native';
+import React from 'react';
+import { View, Text, StyleSheet, Image, TouchableOpacity, SafeAreaView, Dimensions} from 'react-native';
 
 import empreendedorImg from '../assets/empreendedor.png';
 import colors from "../styles/colors";
-
+import {Entypo} from '@expo/vector-icons'
 export function Welcome(){
         return(
             <SafeAreaView style = { styles.container }> 
@@ -12,7 +12,11 @@ export function Welcome(){
                    empresa de forma fácil
                 </Text>
 
-                <Image source={empreendedorImg}  style = {styles.image} />
+                <Image 
+                    source={empreendedorImg}  
+                    style = {styles.image} 
+                    resizeMode="contain"
+                />
 
                 <Text style = {styles.subtitle}>
                     Não esqueça mais de pagar sua DAS ou emitir as notas fiscais do mês.
@@ -21,7 +25,7 @@ export function Welcome(){
 
                 <TouchableOpacity style = {styles.button}>
                     <Text style = {styles.buttontext}>
-                        >
+                            <Entypo name="chevron-right" style={styles.buttonicon} />
                     </Text>
                 </TouchableOpacity>
 
@@ -42,13 +46,16 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         textAlign: 'center',
         color: colors.blue_dark,
-        marginTop: 38
+        marginTop: 50
     },
     subtitle: {
         textAlign: 'center',
         fontSize: 18,
         paddingHorizontal: 20,
-        color: colors.blue_dark
+        color: colors.blue_dark,
+    },
+    image: {
+        height: Dimensions.get('window').width*1
     },
     button: {
         backgroundColor: colors.blue,
@@ -59,13 +66,8 @@ const styles = StyleSheet.create({
         height: 56,
         width: 56
     },
-    image: {
-        width: 550,
-        height: 300
-
-    },
-    buttontext: {
-        color: colors.white,
-        fontSize: 24
+    buttonicon: {
+        fontSize: 24,
+        color: colors.white
     }
   })

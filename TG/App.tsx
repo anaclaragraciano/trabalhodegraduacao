@@ -1,10 +1,10 @@
 import React from "react";
-import { Welcome } from "./src/pages/welcome";
+import { Confirmation } from "./src/pages/confirmation";
 
 
 export default function App() {
     return(
-        <Welcome />
+        <Confirmation />
     )
 }
 
