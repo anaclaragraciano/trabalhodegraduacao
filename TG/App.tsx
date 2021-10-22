@@ -1,10 +1,10 @@
 import React from "react";
-import { Confirmation } from "./src/pages/confirmation";
+import Routes from "./src/routes/routes";
 
 
 export default function App() {
     return(
-        <Confirmation />
+        <Routes/>
     )
 }
 
