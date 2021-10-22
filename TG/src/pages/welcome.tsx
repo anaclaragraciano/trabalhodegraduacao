@@ -4,7 +4,15 @@ import { View, Text, StyleSheet, Image, TouchableOpacity, SafeAreaView, Dimensio
 import empreendedorImg from '../assets/empreendedor.png';
 import colors from "../styles/colors";
 import {Entypo} from '@expo/vector-icons'
-export function Welcome(){
+import { useNavigation } from '@react-navigation/core';
+
+interface WelcomeProps {
+    navigation: any;
+}
+
+const Welcome = (props: WelcomeProps) => {
+    const welcome = () => props.navigation.navigate('UserIdentification')
+
         return(
             <SafeAreaView style = { styles.container }> 
                 <Text style = {styles.title}>
@@ -23,8 +31,8 @@ export function Welcome(){
                     Nós cuidados de lembrar você sempre que precisar.
                 </Text>
 
-                <TouchableOpacity style = {styles.button}>
-                    <Text style = {styles.buttontext}>
+                <TouchableOpacity style = {styles.button} onPress={welcome}>
+                    <Text style = {styles.buttonicon}>
                             <Entypo name="chevron-right" style={styles.buttonicon} />
                     </Text>
                 </TouchableOpacity>
@@ -32,8 +40,9 @@ export function Welcome(){
             </SafeAreaView>
             
         )
-
 }
+
+export default Welcome;
 
 const styles = StyleSheet.create({
     container: {

@@ -3,9 +3,15 @@ import { SafeAreaView, StyleSheet, View, Text, TextInput, KeyboardAvoidingView, 
 import { Button } from "../components/Button";
 
 import colors from "../styles/colors";
+import { Confirmation } from "./confirmation";
 
+interface UserIdentificationProps {
+      navigation: any;
+  }
 
-export function UserIdentification(){
+const UserIdentification = (props: UserIdentificationProps) => {
+      const useridentification = () => props.navigation.navigate('Confirmation')
+
       return(
         <SafeAreaView style={styles.container}>
                   <KeyboardAvoidingView 
@@ -28,7 +34,10 @@ export function UserIdentification(){
                                                             placeholder="Digite seu nome"
                                                 />
                                                 <View style={styles.footer}>
-                                                            <Button />
+                                                      <Button 
+                                                            title="Confirmar"
+                                                            onPress={useridentification}
+                                                      />
                                                 </View>                         
                                     </View>
                               </View>
@@ -36,6 +45,8 @@ export function UserIdentification(){
         </SafeAreaView>
       )
 }
+
+export default UserIdentification;
 
 const styles = StyleSheet.create({
       container: {
