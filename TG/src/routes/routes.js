@@ -5,7 +5,10 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import Welcome from "../pages/welcome";
 import UserIdentification from "../pages/useridentification";
-import { Confirmation } from "../pages/confirmation";
+import Confirmation from "../pages/confirmation";
+import Information from "../pages/information";
+
+import MyTabs from "./tab";
 
 const Routes = ( ) => {
 
@@ -13,7 +16,7 @@ const Routes = ( ) => {
 
     return (
         <NavigationContainer>
-            <Stack.Navigator initialRouteName="Welcome">
+            <Stack.Navigator initialRouteName="Tab">
                 <Stack.Screen  
                     options={{headerShown:false}} 
                     name="Welcome" 
@@ -29,6 +32,17 @@ const Routes = ( ) => {
                     name="Confirmation" 
                     component={Confirmation} 
                 />
+                 <Stack.Screen  
+                    options={{headerShown:false}} 
+                    name="Tab" 
+                    component={MyTabs} 
+                />
+                <Stack.Screen  
+                    options={{headerShown:false}} 
+                    name="Information" 
+                    component={Information} 
+                />
+
             </Stack.Navigator>
         </NavigationContainer>
     );

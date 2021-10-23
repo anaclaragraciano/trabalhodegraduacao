@@ -4,7 +4,13 @@ import { Button } from "../components/Button";
 
 import colors from "../styles/colors";
 
-export function Confirmation(){
+interface ConfirmationProps {
+    navigation: any;
+}
+
+const Confirmation = (props: ConfirmationProps) => {
+    const confimation = () => props.navigation.navigate('Tab')
+
       return(
             <SafeAreaView style={styles.container}>
                   <View style= {styles.content}>
@@ -23,6 +29,7 @@ export function Confirmation(){
                         <View style={styles.footer}> 
                             <Button
                                 title="Começar"
+                                onPress={confimation}
                             />
                         </View>
 
@@ -30,6 +37,8 @@ export function Confirmation(){
             </SafeAreaView>
       )
 }
+
+export default Confirmation;
 
 const styles = StyleSheet.create({
     container: {

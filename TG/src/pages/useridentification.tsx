@@ -3,7 +3,6 @@ import { SafeAreaView, StyleSheet, View, Text, TextInput, KeyboardAvoidingView, 
 import { Button } from "../components/Button";
 
 import colors from "../styles/colors";
-import { Confirmation } from "./confirmation";
 
 interface UserIdentificationProps {
       navigation: any;
