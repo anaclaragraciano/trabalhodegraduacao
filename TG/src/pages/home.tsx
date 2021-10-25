@@ -10,7 +10,7 @@ interface HomeProps {
       navigation: any;
   }
 
-interface InformationProps{
+  interface InformationProps{
     id: string;
     name: string;
     subtitle: string;
@@ -44,12 +44,12 @@ const Home = (props: HomeProps) => {
                         Informações
                     </Text>
                     <View style={styles.footer}>
-                        <FlatList
+                        <FlatList 
                             data={information}
-                            renderItem={({ item }) => (
-                                <Card data={item} />
+                            renderItem={({item}) => (
+                                <Card data={item} onPress={home}/>
                             )}
-                            showsVerticalScrollIndicator={false}                        
+                            showsVerticalScrollIndicator={false}
                         />
                     </View>
                 </View>

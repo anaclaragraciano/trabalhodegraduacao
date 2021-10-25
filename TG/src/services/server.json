@@ -1,43 +1,211 @@
 {
 
-    "informations": [
-      {
-        "id": 1,
-        "name": "As atividades permitidas ao MEI, de A a Z",
-        "subtitle": "Para tornar-se um microempreendedor individual é preciso se enquadrar em pelo menos uma das atividades permitidas. Confira quais são.",
-        "about": " Não são todas as atividades econômicas que qualificam um empresário para ser microempreendedor individual (MEI). Algumas profissões não podem ser enquadradas neste tipo de empresa e é preciso saber quais são antes de fazer a sua formalização. Mesmo que você trabalhe por conta própria, fature no máximo R$ 81.000,00 por ano e não tenha participação em outra empresa como sócio ou titular, é preciso verificar se o seu ramo pode ser enquadrado como MEI. Aqui você também pode ver o que mudou nas atividades permitidas a partir de 2019. Foram excluídas aquelas que apresentam alguma periculosidade. Os empreendedores desses segmentos poderão permanecer como MEI em 2019, mas a partir de 2020 deverão migrar para o regime de microempresa (ME). É muito fácil fazer essa conferência. Basta clicar no botão abaixo e procurar na lista."
-      },
-      {
-        "id": 2,
-        "name": "MEI estrangeiro? Você também pode ser um",
-        "subtitle": "Veja como você pode se tornar um Microempreendedor Individual - MEI no Brasil, mesmo sendo de outro país.",
-        "about": " Não são todas as atividades econômicas que qualificam um empresário para ser microempreendedor individual (MEI). Algumas profissões não podem ser enquadradas neste tipo de empresa e é preciso saber quais são antes de fazer a sua formalização. Mesmo que você trabalhe por conta própria, fature no máximo R$ 81.000,00 por ano e não tenha participação em outra empresa como sócio ou titular, é preciso verificar se o seu ramo pode ser enquadrado como MEI. Aqui você também pode ver o que mudou nas atividades permitidas a partir de 2019. Foram excluídas aquelas que apresentam alguma periculosidade. Os empreendedores desses segmentos poderão permanecer como MEI em 2019, mas a partir de 2020 deverão migrar para o regime de microempresa (ME). É muito fácil fazer essa conferência. Basta clicar no botão abaixo e procurar na lista."
-      },
-      {
-        "id": 3,
-        "name": "Saiba como se tornar um MEI – Microempreendedor Individua",
-        "subtitle": "Conheça o passo a passo para se tornar um microempreendedor individual e como a formalização pode trazer benefícios para o seu negócio.",
-        "about": " Não são todas as atividades econômicas que qualificam um empresário para ser microempreendedor individual (MEI). Algumas profissões não podem ser enquadradas neste tipo de empresa e é preciso saber quais são antes de fazer a sua formalização. Mesmo que você trabalhe por conta própria, fature no máximo R$ 81.000,00 por ano e não tenha participação em outra empresa como sócio ou titular, é preciso verificar se o seu ramo pode ser enquadrado como MEI. Aqui você também pode ver o que mudou nas atividades permitidas a partir de 2019. Foram excluídas aquelas que apresentam alguma periculosidade. Os empreendedores desses segmentos poderão permanecer como MEI em 2019, mas a partir de 2020 deverão migrar para o regime de microempresa (ME). É muito fácil fazer essa conferência. Basta clicar no botão abaixo e procurar na lista."
-      },
-      {
-        "id": 4,
-        "name": "O MEI é obrigado a contribuir para a Previdência Social?",
-        "subtitle": "Saiba se o MEI é obrigado a contribuir com a previdência e quais as vantagens ele tem ao contribuir.      ",
-        "about": " Não são todas as atividades econômicas que qualificam um empresário para ser microempreendedor individual (MEI). Algumas profissões não podem ser enquadradas neste tipo de empresa e é preciso saber quais são antes de fazer a sua formalização. Mesmo que você trabalhe por conta própria, fature no máximo R$ 81.000,00 por ano e não tenha participação em outra empresa como sócio ou titular, é preciso verificar se o seu ramo pode ser enquadrado como MEI. Aqui você também pode ver o que mudou nas atividades permitidas a partir de 2019. Foram excluídas aquelas que apresentam alguma periculosidade. Os empreendedores desses segmentos poderão permanecer como MEI em 2019, mas a partir de 2020 deverão migrar para o regime de microempresa (ME). É muito fácil fazer essa conferência. Basta clicar no botão abaixo e procurar na lista."
-      },
-      {
-        "id": 5,
-        "name": "Descubra como emitir os Boletos de pagamento MEI",
-        "subtitle": "Descubra detalhadamente como emitir os boletos de pagamento MEI",
-        "about": " Não são todas as atividades econômicas que qualificam um empresário para ser microempreendedor individual (MEI). Algumas profissões não podem ser enquadradas neste tipo de empresa e é preciso saber quais são antes de fazer a sua formalização. Mesmo que você trabalhe por conta própria, fature no máximo R$ 81.000,00 por ano e não tenha participação em outra empresa como sócio ou titular, é preciso verificar se o seu ramo pode ser enquadrado como MEI. Aqui você também pode ver o que mudou nas atividades permitidas a partir de 2019. Foram excluídas aquelas que apresentam alguma periculosidade. Os empreendedores desses segmentos poderão permanecer como MEI em 2019, mas a partir de 2020 deverão migrar para o regime de microempresa (ME). É muito fácil fazer essa conferência. Basta clicar no botão abaixo e procurar na lista."
-      },
-      {
-        "id": 6,
-        "name": "Como ficaram as obrigações do MEI na Pandemia?",
-        "subtitle": "Saiba como a pandemia afetou o Microempreendedor Individual e alterou alguns prazos",
-        "about": " Não são todas as atividades econômicas que qualificam um empresário para ser microempreendedor individual (MEI). Algumas profissões não podem ser enquadradas neste tipo de empresa e é preciso saber quais são antes de fazer a sua formalização. Mesmo que você trabalhe por conta própria, fature no máximo R$ 81.000,00 por ano e não tenha participação em outra empresa como sócio ou titular, é preciso verificar se o seu ramo pode ser enquadrado como MEI. Aqui você também pode ver o que mudou nas atividades permitidas a partir de 2019. Foram excluídas aquelas que apresentam alguma periculosidade. Os empreendedores desses segmentos poderão permanecer como MEI em 2019, mas a partir de 2020 deverão migrar para o regime de microempresa (ME). É muito fácil fazer essa conferência. Basta clicar no botão abaixo e procurar na lista."
-      }
-  
-    ]
-  }
-  
+  "informations": [
+    {
+      "id": 1,
+      "name": "As atividades permitidas ao MEI, de A a Z",
+      "subtitle": "Para tornar-se um microempreendedor individual é preciso se enquadrar em pelo menos uma das atividades permitidas. Confira quais são.",
+      "about": " Não são todas as atividades econômicas que qualificam um empresário para ser microempreendedor individual (MEI). Algumas profissões não podem ser enquadradas neste tipo de empresa e é preciso saber quais são antes de fazer a sua formalização. Mesmo que você trabalhe por conta própria, fature no máximo R$ 81.000,00 por ano e não tenha participação em outra empresa como sócio ou titular, é preciso verificar se o seu ramo pode ser enquadrado como MEI. Aqui você também pode ver o que mudou nas atividades permitidas a partir de 2019. Foram excluídas aquelas que apresentam alguma periculosidade. Os empreendedores desses segmentos poderão permanecer como MEI em 2019, mas a partir de 2020 deverão migrar para o regime de microempresa (ME). É muito fácil fazer essa conferência. Basta clicar no botão abaixo e procurar na lista."
+    },
+    {
+      "id": 2,
+      "name": "MEI estrangeiro? Você também pode ser um",
+      "subtitle": "Veja como você pode se tornar um Microempreendedor Individual - MEI no Brasil, mesmo sendo de outro país.",
+      "about": " Não são todas as atividades econômicas que qualificam um empresário para ser microempreendedor individual (MEI). Algumas profissões não podem ser enquadradas neste tipo de empresa e é preciso saber quais são antes de fazer a sua formalização. Mesmo que você trabalhe por conta própria, fature no máximo R$ 81.000,00 por ano e não tenha participação em outra empresa como sócio ou titular, é preciso verificar se o seu ramo pode ser enquadrado como MEI. Aqui você também pode ver o que mudou nas atividades permitidas a partir de 2019. Foram excluídas aquelas que apresentam alguma periculosidade. Os empreendedores desses segmentos poderão permanecer como MEI em 2019, mas a partir de 2020 deverão migrar para o regime de microempresa (ME). É muito fácil fazer essa conferência. Basta clicar no botão abaixo e procurar na lista."
+    },
+    {
+      "id": 3,
+      "name": "Saiba como se tornar um MEI – Microempreendedor Individua",
+      "subtitle": "Conheça o passo a passo para se tornar um microempreendedor individual e como a formalização pode trazer benefícios para o seu negócio.",
+      "about": " Não são todas as atividades econômicas que qualificam um empresário para ser microempreendedor individual (MEI). Algumas profissões não podem ser enquadradas neste tipo de empresa e é preciso saber quais são antes de fazer a sua formalização. Mesmo que você trabalhe por conta própria, fature no máximo R$ 81.000,00 por ano e não tenha participação em outra empresa como sócio ou titular, é preciso verificar se o seu ramo pode ser enquadrado como MEI. Aqui você também pode ver o que mudou nas atividades permitidas a partir de 2019. Foram excluídas aquelas que apresentam alguma periculosidade. Os empreendedores desses segmentos poderão permanecer como MEI em 2019, mas a partir de 2020 deverão migrar para o regime de microempresa (ME). É muito fácil fazer essa conferência. Basta clicar no botão abaixo e procurar na lista."
+    },
+    {
+      "id": 4,
+      "name": "O MEI é obrigado a contribuir para a Previdência Social?",
+      "subtitle": "Saiba se o MEI é obrigado a contribuir com a previdência e quais as vantagens ele tem ao contribuir.      ",
+      "about": " Não são todas as atividades econômicas que qualificam um empresário para ser microempreendedor individual (MEI). Algumas profissões não podem ser enquadradas neste tipo de empresa e é preciso saber quais são antes de fazer a sua formalização. Mesmo que você trabalhe por conta própria, fature no máximo R$ 81.000,00 por ano e não tenha participação em outra empresa como sócio ou titular, é preciso verificar se o seu ramo pode ser enquadrado como MEI. Aqui você também pode ver o que mudou nas atividades permitidas a partir de 2019. Foram excluídas aquelas que apresentam alguma periculosidade. Os empreendedores desses segmentos poderão permanecer como MEI em 2019, mas a partir de 2020 deverão migrar para o regime de microempresa (ME). É muito fácil fazer essa conferência. Basta clicar no botão abaixo e procurar na lista."
+    },
+    {
+      "id": 5,
+      "name": "Descubra como emitir os Boletos de pagamento MEI",
+      "subtitle": "Descubra detalhadamente como emitir os boletos de pagamento MEI",
+      "about": " Não são todas as atividades econômicas que qualificam um empresário para ser microempreendedor individual (MEI). Algumas profissões não podem ser enquadradas neste tipo de empresa e é preciso saber quais são antes de fazer a sua formalização. Mesmo que você trabalhe por conta própria, fature no máximo R$ 81.000,00 por ano e não tenha participação em outra empresa como sócio ou titular, é preciso verificar se o seu ramo pode ser enquadrado como MEI. Aqui você também pode ver o que mudou nas atividades permitidas a partir de 2019. Foram excluídas aquelas que apresentam alguma periculosidade. Os empreendedores desses segmentos poderão permanecer como MEI em 2019, mas a partir de 2020 deverão migrar para o regime de microempresa (ME). É muito fácil fazer essa conferência. Basta clicar no botão abaixo e procurar na lista."
+    },
+    {
+      "id": 6,
+      "name": "Como ficaram as obrigações do MEI na Pandemia?",
+      "subtitle": "Saiba como a pandemia afetou o Microempreendedor Individual e alterou alguns prazos",
+      "about": " Não são todas as atividades econômicas que qualificam um empresário para ser microempreendedor individual (MEI). Algumas profissões não podem ser enquadradas neste tipo de empresa e é preciso saber quais são antes de fazer a sua formalização. Mesmo que você trabalhe por conta própria, fature no máximo R$ 81.000,00 por ano e não tenha participação em outra empresa como sócio ou titular, é preciso verificar se o seu ramo pode ser enquadrado como MEI. Aqui você também pode ver o que mudou nas atividades permitidas a partir de 2019. Foram excluídas aquelas que apresentam alguma periculosidade. Os empreendedores desses segmentos poderão permanecer como MEI em 2019, mas a partir de 2020 deverão migrar para o regime de microempresa (ME). É muito fácil fazer essa conferência. Basta clicar no botão abaixo e procurar na lista."
+    }
+
+  ],
+  "options":[
+    {
+      "id":1,
+      "title": "A"
+    },
+    {
+      "id":2,
+      "title": "B"
+    },
+    {
+      "id":3,
+      "title": "C"
+    },
+    {
+      "id":4,
+      "title": "D"
+    },
+    {
+      "id":5,
+      "title": "E"
+    },
+    {
+      "id":6,
+      "title": "F"
+    },
+    {
+      "id":7,
+      "title": "G"
+    },
+    {
+      "id":8,
+      "title": "H"
+    },
+    {
+      "id":9,
+      "title": "I"
+    },
+    {
+      "id":10,
+      "title": "J"
+    },
+    {
+      "id":11,
+      "title": "K"
+    },
+    {
+      "id":12,
+      "title": "L"
+    },
+    {
+      "id":13,
+      "title": "M"
+    },
+    {
+      "id":14,
+      "title": "N"
+    },
+    {
+      "id":15,
+      "title": "O"
+    },
+    {
+      "id":16,
+      "title": "P"
+    },
+    {
+      "id":17,
+      "title": "Q"
+    },
+    {
+      "id":18,
+      "title": "R"
+    },
+    {
+      "id":19,
+      "title": "S"
+    },
+    {
+      "id":20,
+      "title": "T"
+    },
+    {
+      "id":21,
+      "title": "U"
+    },
+    {
+      "id":22,
+      "title": "V"
+    }
+
+  ],
+  "category":[
+    {
+      "id": 1,
+      "title": "Abatedor(a) De Aves Com Comercialização do Produto Independente"
+    },
+    {
+      "id": 2,
+      "title": "Baleiro(a)"
+    },
+    {
+      "id": 3,
+      "title": "Cabeleireiro(a)"
+    },
+    {
+      "id": 4,
+      "title": "Diarista"
+    },
+    {
+      "id": 5,
+      "title": "Editor(A) De Vídeo"
+    },
+    {
+      "id": 6,
+      "title": "Fabricante De Açúcar Mascavo"
+    },
+    {
+      "id": 7,
+      "title": "Galvanizador(A)"
+    },
+    {
+      "id": 8,
+      "title": "Humorista E Contador De Histórias"
+    },
+    {
+      "id": 9,
+      "title": "Instalador(A) De Isolantes Térmicos"
+    },
+    {
+      "id": 10,
+      "title": "Jardineiro(A)"
+    },
+    {
+      "id": 11,
+      "title": "Lapidador(A)"
+    },
+    {
+      "id": 12,
+      "title": "Mágico(a)"
+    },
+    {
+      "id": 13,
+      "title": "Oleiro(a)"
+    },
+    {
+      "id": 14,
+      "title": "Padeiro(a)"
+    },
+    {
+      "id": 15,
+      "title": "Queijeiro(a)/ Manteigueiro(a)"
+    },
+    {
+      "id": 16,
+      "title": "Recarregador(a) De Cartuchos Para Equipamentos De Informática"
+    },
+    {
+      "id": 17,
+      "title": "Salgadeiro(A)"
+    },
+    {
+      "id": 18,
+      "title": "Tanoeiro(A)"
+    },
+    {
+      "id": 19,
+      "title": "Vassoureiro(A)"
+    }
+  ]
+}

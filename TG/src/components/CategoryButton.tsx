@@ -5,25 +5,20 @@ import colors from "../styles/colors";
 
 interface CardProps extends RectButtonProps {
       data: {
-            name: string;
-            subtitle: string;
+            title: string;
       }
 }
 
-export const Card = ({data, ...rest} : CardProps ) => {
+export const CategoryButton = ({data, ...rest} : CardProps ) => {
       return(
             <RectButton 
                   style={styles.container}
                   {...rest}
             >
                   <Text style={styles.text}>
-                        {data.name}
-                  </Text>
-                  <Text style={styles.subtitle}>
-                        {data.subtitle}
+                      {data.title}
                   </Text>
             </RectButton>
-
       )
 }
 
@@ -36,7 +31,7 @@ container: {
       alignItems: 'center',
       margin: 10,
       borderWidth: 2,
-      height:150
+      height:60
 },
 text: {
       fontSize: 18,
@@ -44,10 +39,5 @@ text: {
       marginVertical: 5,
       marginRight: 5,
       marginLeft: 5
-},
-subtitle: {
-      fontSize: 14,
-      color: colors.black,
-      marginVertical: 2
 }
 });
