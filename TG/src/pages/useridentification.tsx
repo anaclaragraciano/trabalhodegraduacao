@@ -1,5 +1,6 @@
-import React from "react";
-import { SafeAreaView, StyleSheet, View, Text, TextInput, KeyboardAvoidingView, Platform} from 'react-native';
+import { useNavigation } from "@react-navigation/core";
+import React, { useState } from "react";
+import { SafeAreaView, StyleSheet, View, Text, TextInput, KeyboardAvoidingView, Platform, Alert} from 'react-native';
 import { Button } from "../components/Button";
 
 import colors from "../styles/colors";
@@ -10,6 +11,12 @@ interface UserIdentificationProps {
 
 const UserIdentification = (props: UserIdentificationProps) => {
       const useridentification = () => props.navigation.navigate('Confirmation')
+      const [name, setName] = useState<string>();
+
+      function handleSubmit(){
+            if(!name)
+                  return Alert.alert('Me diz como chamar você');
+      }
 
       return(
         <SafeAreaView style={styles.container}>

@@ -1,38 +1,61 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { SafeAreaView, StyleSheet, View, Text, TextInput, KeyboardAvoidingView, Platform} from 'react-native';
-import { Button } from "../components/Button";
-import { Container } from "../components/container"; 
-import colors from "../styles/colors";
+import { FlatList } from "react-native-gesture-handler";
 
+
+import api from "../services/api";
+import colors from "../styles/colors";
+import {Card} from "../components/Card";
 interface HomeProps {
       navigation: any;
   }
 
-const Home = (props: HomeProps) => {
-      const home = () => props.navigation.navigate('Information')
+interface InformationProps{
+    id: string;
+    name: string;
+    subtitle: string;
+    about: string;
+}
 
-      return(
-          <SafeAreaView style={styles.container}>
-              <Text style={styles.name}>
-                  Ana Clara Graciano
-              </Text>
-              <Text style={styles.cnpj}>
-                  42.807.427/0001-46
-              </Text>
-              <View style={styles.background}>
-                <Text style={styles.title}>
-                    Informações
+const Home = (props: HomeProps) => {
+        const home = () => props.navigation.navigate('Information')
+        const [information, setInformation] = useState<InformationProps[]>([]);
+        
+        useEffect(() => {
+            async function fetchInformation(){
+                const { data } = await api.get('informations');
+                setInformation(data);
+            }
+
+            fetchInformation();
+
+        },[ ])
+
+        return(
+            <SafeAreaView style={styles.container}>
+                <Text style={styles.name}>
+                    Ana Clara Graciano
                 </Text>
-                <View style={styles.footer}>
-                    <Container 
-                        title="Ocupações permitidas para o MEI"
-                        onPress={home}
-                    />
+                <Text style={styles.cnpj}>
+                    42.807.427/0001-46
+                </Text>
+                <View style={styles.background}>
+                    <Text style={styles.title}>
+                        Informações
+                    </Text>
+                    <View style={styles.footer}>
+                        <FlatList
+                            data={information}
+                            renderItem={({ item }) => (
+                                <Card data={item} />
+                            )}
+                            showsVerticalScrollIndicator={false}                        
+                        />
+                    </View>
                 </View>
-              </View>
-          </SafeAreaView>
-          
-      )
+            </SafeAreaView>
+            
+        )
 
 }
 
@@ -50,8 +73,8 @@ const styles = StyleSheet.create({
         borderTopLeftRadius: 35,
         borderTopRightRadius: 35,
         flex: 1,
-        marginTop: 60,
-        width: '100%',
+        marginTop: 20,
+        width: '100%'
      },
      name: {
         fontSize:25,
@@ -68,12 +91,18 @@ const styles = StyleSheet.create({
         fontSize:25,
         color: colors.blue_dark,
         fontWeight: 'bold',
-        marginTop: 30,
+        marginTop: 15,
         marginLeft: 40
      },
      footer:{
         width: '100%',
         paddingHorizontal: 30,
-        marginTop: 15
+        marginTop: 15,
+        flex: 1,
+        justifyContent: 'center'
+     },
+     subtitle: {
+        fontSize: 16,
+        color: colors.black
      }
 });

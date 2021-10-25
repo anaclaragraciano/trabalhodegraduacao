@@ -16,7 +16,7 @@ const Routes = ( ) => {
 
     return (
         <NavigationContainer>
-            <Stack.Navigator initialRouteName="Tab">
+            <Stack.Navigator initialRouteName="Welcome">
                 <Stack.Screen  
                     options={{headerShown:false}} 
                     name="Welcome" 
