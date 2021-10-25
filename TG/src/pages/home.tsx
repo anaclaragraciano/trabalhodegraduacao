@@ -36,9 +36,6 @@ const Home = (props: HomeProps) => {
                 <Text style={styles.name}>
                     Ana Clara Graciano
                 </Text>
-                <Text style={styles.cnpj}>
-                    42.807.427/0001-46
-                </Text>
                 <View style={styles.background}>
                     <Text style={styles.title}>
                         Informações
@@ -81,11 +78,6 @@ const styles = StyleSheet.create({
         color: colors.white,
         fontWeight: 'bold',
         marginTop: 30
-     },
-     cnpj: {
-        fontSize:20,
-        color: colors.white,
-        marginTop: 5
      },
      title:{
         fontSize:25,

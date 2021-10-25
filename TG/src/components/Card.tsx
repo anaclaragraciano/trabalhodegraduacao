@@ -43,11 +43,13 @@ text: {
       color: colors.black,
       marginVertical: 5,
       marginRight: 5,
-      marginLeft: 5
+      marginLeft: 5,
+      marginHorizontal: 5
 },
 subtitle: {
       fontSize: 14,
       color: colors.black,
-      marginVertical: 2
+      marginVertical: 2,
+      marginHorizontal: 2
 }
 });

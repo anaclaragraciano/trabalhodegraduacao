@@ -7,7 +7,7 @@ import Welcome from "../pages/welcome";
 import UserIdentification from "../pages/useridentification";
 import Confirmation from "../pages/confirmation";
 import Information from "../pages/information";
-
+import DasDetalhes from "../pages/dasDetalhes";
 import MyTabs from "./tab";
 
 const Routes = ( ) => {
@@ -42,6 +42,12 @@ const Routes = ( ) => {
                     name="Information" 
                     component={Information} 
                 />
+                <Stack.Screen  
+                    options={{headerShown:false}} 
+                    name="DasDetalhes" 
+                    component={DasDetalhes} 
+                />
+
 
             </Stack.Navigator>
         </NavigationContainer>

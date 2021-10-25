@@ -19,11 +19,28 @@ interface OptionsProps{
 interface CategoryProps{
     id: string;
     title: string;
+    letter: string;
 }
 
 const Information = (props: InformationProps) => {
   const [options, setOptions] = useState<OptionsProps[]>([]);
   const [category, setCategory] = useState<CategoryProps[]>([]);
+  const [filteredCategory, setFilteredCategory] = useState<CategoryProps[]>([]);
+  const [optionsSelected, setOptionsSelected] = useState('all');
+
+  function handleOptionsSelected(option: string){
+    setOptionsSelected(option);
+
+    if(option == 'all')
+      return setFilteredCategory(category);
+
+    const filtered = category.filter(cat =>
+        cat.letter.includes(option)
+    );
+
+    setFilteredCategory(filtered);
+
+  }
   
   useEffect(() => {
     async function fetchOptions(){
@@ -31,7 +48,7 @@ const Information = (props: InformationProps) => {
       setOptions([
         {
            id:'all',
-           title: "Todos",
+           title: "TODOS",
         },
         ...data
       ]);
@@ -56,7 +73,7 @@ const Information = (props: InformationProps) => {
               para {'\n'} o MEI
             </Text>
             <Text style={styles.subtitle}>
-              Veja as 480 atividades permitidas para se tornar um Microempreendedor Individual.
+              Veja as atividades permitidas para se tornar um Microempreendedor Individual.
             </Text>
             <View>
               <FlatList 
@@ -64,7 +81,8 @@ const Information = (props: InformationProps) => {
                 renderItem={({item}) => (
                   <OptionsButton 
                     title= {item.title}
-                    active
+                    active={item.id==optionsSelected}
+                    onPress={() => handleOptionsSelected(item.title)}
                   />
                 )}
                 horizontal
@@ -73,7 +91,7 @@ const Information = (props: InformationProps) => {
               />
             </View>
             <FlatList
-              data={category}
+              data={filteredCategory}
               renderItem={({item}) => (
                 <CategoryButton 
                   data={item}
@@ -110,6 +128,7 @@ const styles = StyleSheet.create({
       fontWeight: 'bold',
       marginTop: 30,
       paddingHorizontal: 20,
+      alignItems: 'center'
    },
     subtitle: {
         fontSize: 20,

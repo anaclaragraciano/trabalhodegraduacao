@@ -5,6 +5,7 @@ blue: '#4AC8F7',
 back: '#00B4F5',
 blue3: '#008EC2',
 white: '#ffff',
-black: '#000'
+black: '#000',
+gray: '#6E6E6E'
 };
 
